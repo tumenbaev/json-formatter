@@ -258,7 +258,7 @@ SOFTWARE.
     const { key, size } = params;
     return `
     <div class="line">
-      <div class="caret-icon"><i class="codicon codicon-chevron-right"></i></div>
+      <button class="caret-icon"><i class="codicon codicon-chevron-right"></i></button>
       <div class="json-key">${key}</div>
       <div class="json-size">${size}</div>
     </div>
